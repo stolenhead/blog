@@ -8,15 +8,41 @@ body {
 
 h1 a {
     color: #FCA205;
-    font-family: 'Lobster';
+    font-family: 'Comfortaa', cursive;
 }
 
 .page-header {
-    background-color: #ff9400;
+    background-color: #98f0f0;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
+.glyphicon {
+    padding: 1rem;
+    border: 1px solid #92def3;
+    border-radius: 13px;
+    background-color: #92def3;
+}
+
+.glyphicon:hover {
+    background-color: white;
+    color: #92def3;
+    border-color: white;
+}
+
+.hola{
+    font-size: 17rem;
+    text-align: center;
+}
+
+.ho {
+    margin-bottom: -8rem;
+    color: gray;
+}
+
+.la{
+    color:#e4c9e4
+}
 .page-header h1,
 .page-header h1 a,
 .page-header h1 a:visited,
@@ -34,7 +60,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Comfortaa', cursive;
 }
 
 .date {
@@ -43,6 +69,13 @@ h4 {
 
 .save {
     float: right;
+    width: 12rem;
+    padding: 1rem;
+    color: white;
+    background-color: #92def3;
+    font-size: 2rem;
+    box-shadow: 0 8px 6px -6px #b1b1b1;
+    margin-bottom: 2rem;
 }
 
 .post-form textarea,
@@ -59,10 +92,18 @@ h4 {
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-top: 6rem;
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    box-shadow: 0 8px 6px -6px #a29c9c;
 }
 
 .post h1 a,
 .post h1 a:visited {
     color: #000000;
+}
+
+.post p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2rem;
 }
